@@ -46,3 +46,23 @@ i = 1
 while i <= 10:
   print("2x",i,"=",2*i)
   i += 1
+
+def table_of_2():
+    for i in range(1, 11):
+        print("2 x", i, "=", 2 * i)
+
+print("## 04")
+print("## Function [def] Defination with for looping ")
+def table_of_2():
+    for i in range(1,11):
+       print("2x",i,"=",2*i)
+
+table_of_2()
+
+print("## 04.01")
+print("## Function [def] Defination with for looping ")
+def table_of_2(n):
+    for i in range(1,11):
+       print(n,"x",i,"=",n*i)
+
+table_of_2(4)
