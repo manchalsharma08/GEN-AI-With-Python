@@ -66,3 +66,53 @@ def table_of_2(n):
        print(n,"x",i,"=",n*i)
 
 table_of_2(4)
+
+
+print("## Create A file and something write on it")
+print("01 type")
+
+f= open("text.txt", "w")
+f.write("Hello World")
+f.closed
+
+print("===================")
+print("02 type" \
+"\n====================")
+
+with open("mytext.txt", "w") as f:
+   f.write("MAnchal")
+
+print("03 type" \
+" \nOnly Create file not write any thing"
+"\n====================")
+
+open("hello.txt", "w").close()
+
+print("04 type" \
+" \n Append data (don’t delete old content)"
+"\n====================")
+
+with open("text.txt", "a") as f:
+ f.write("\n My world is My feamily"
+         "\n hi hello1")
+
+print("05 type" \
+" \nOnly Create file not write any thing"
+"\n====================")
+
+open("hello.py", "w").close()
+
+
+
+print("================")
+print(" Check file location ")
+import os
+print(os.getcwd())
+
+
+
+with open("E:\GenAI\GEN-AI-With-Python\Practice\Day02_0402026\world.py", "w") as f:
+    f.write('with open("write.txt", "w") as f:\n')
+    f.write('    f.write("hum")')
+
+
