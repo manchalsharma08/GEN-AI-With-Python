@@ -32,34 +32,63 @@ f.closed
 #===========================
 
 # f = open("E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026\test03.txt", "w")
-# f.write(" hum tumhare hai wo bhi")
+# # f.write(" hum tumhare hai wo bhi")
 
-# f.closed
+# # f.closed
 
-# f = open("E:\\GenAI\\GEN-AI-With-Python\\Practice\\Day01_02022026\\test03.txt", "w")
+# # f = open("E:\\GenAI\\GEN-AI-With-Python\\Practice\\Day01_02022026\\test03.txt", "w")
+# # f.write("hum tumhare hai wo bhi")
+# # f.close()
+
+# f = open("E:/GenAI/GEN-AI-With-Python/Practice/Day01_02022026/test02.txt", "w")
 # f.write("hum tumhare hai wo bhi")
 # f.close()
 
-# f = open("E:/GenAI/GEN-AI-With-Python/Practice/Day01_02022026/test03.txt", "w")
-# f.write("hum tumhare hai wo bhi")
-# f.close()
+# # with open(r"E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026\test03.txt", "w") as f:
+# #     f.write("hum tumhare hai wo bhi")
 
 # with open(r"E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026\test03.txt", "w") as f:
-#     f.write("hum tumhare hai wo bhi")
-
-# with open(r"E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026\test04.txt", "w") as f:
 #     f.write("Ye file dusre folder me bani hai")
 
-import os
 
-folder = r"E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026"
-os.makedirs(folder, exist_ok=True)
+# #=============================================================
 
-file_path = os.path.join(folder, "test04.txt")
+# import os
 
-with open(file_path, "w") as f:
-    f.write("Folder auto create ho gaya")
+# folder = r"E:\GenAI\GEN-AI-With-Python\Practice\Day01_02022026"
+# os.makedirs(folder, exist_ok=True)
+
+# file_path = os.path.join(folder, "test04.txt")
+
+# with open(file_path, "w") as f:
+#     f.write("Folder auto create ho gaya")
+#========================================================
+# x = int(input("enter_table_number: "))
+# def table_number(n):
+#     i = 1
+#     while i <= 10:
+#         print(n, "x", i, "=", n * i)
+#         i +=1
+
+# table_number(x)
+
+
+# import numpy as np
+
+# a = np.array([1, 2, 3])
+# print(a)
+
+x = "Hello World"
+for c in x:
+
+   print("current letter =",c)
 
 
 
+fruits =["apple","banana","strawberry"]
+for fruit in fruits :
 
+   print("A fruit in the basket =",fruit)
+
+
+   
